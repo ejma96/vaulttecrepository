@@ -1,0 +1,81 @@
+/*----------HOME BODY ELEMENTS----------*/
+
+body {
+    background-color: rgb(44,130,255);
+}
+
+body h1 {
+    color: rgb(255,240,131);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+body h2 {
+    color: rgb(255,240,131);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+body p {
+    color: rgb(255,240,131);
+    text-align: center;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+body iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/*----------MAP ELEMENTS----------*/
+
+#map {
+    margin: 0 auto;
+    height: 400px;
+    width: 75%;
+}
+
+/*----------NAVBAR ELEMENTS----------*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+    background-color: rgb(192, 188, 188);
+    border: 1px solid rgb(116, 115, 115);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    background-color: rgb(192, 188, 188);
+}
+
+.navbar li a {
+    color: rgb(44,130,255);
+    padding: 8px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(44,130,255);
+    background-color: rgb(255,240,131);
+}
+
+.navimg {
+    position: absolute;
+    max-height: 50px;
+    max-width: 75px;
+    right: 110px;
+}
+
+.signup:hover {
+    background-color: rgb(255,240,131);
+}
