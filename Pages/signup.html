@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../Styles/style.css">
+  <link rel="stylesheet" href="../Styles/signstyle.css">
   <link rel="icon" href="../Img/vaultboy.png">
   <title>Vault Tec | Sign-Up Today!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,22 +36,27 @@
     <form method="get" action="" id="signup-form">
       <label for="firstname">First Name</label>
       <input type="text" name="firstname" id="firstname"/>
+      <br>
       <label for="lastname">Last Name</label>
       <input type="text" name="lastname" id="lastname"/>
+      <br>
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email">
+      <br>
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone">
+      <br>
       <label for="familymembers">Family Members</label>
-      <select id="familymembers" name="familymembers" size="5">
+      <select id="familymembers" name="familymembers">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5+">5+</option>
       </select>
-      <label for="email">Email Address</label>
-      <input type="email" name="email" id="email">
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone">
+      <br>
       <label for="state">State of Residence</label>
-      <select id="state" name="state" size="50">
+      <select id="state" name="state">
         <option value="AL">Alabama</option>
         <option value="AK">Alaska</option>
         <option value="AZ">Arizona</option>
@@ -102,6 +108,8 @@
         <option value="WI">Wisconsin</option>
         <option value="WY">Wyoming</option>
       </select>
+      <br>
+      <input type="submit" value="submit" id="submit"/>
     </form>
   </div>
 </body>

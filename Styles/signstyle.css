@@ -1,0 +1,15 @@
+.signupforms {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 25%;
+}
+
+.signupforms label {
+    color: rgb(255,240,131);
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.signupforms input {
+    width: 50%;
+    margin: 0 auto;
+}
