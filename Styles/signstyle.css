@@ -1,15 +1,32 @@
 .signupforms {
     margin: 0 auto;
     padding: 0 auto;
-    width: 25%;
+    width: 50%;
+    background-color: rgb(255,240,131);
+    border-radius: 25px;
 }
 
 .signupforms label {
-    color: rgb(255,240,131);
+    color: rgb(44,130,255);
     font-family: "Balsamiq Sans", sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .signupforms input {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 25%;
     margin: 0 auto;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+
+.signupforms select {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    color: rgb(44,130,255);
 }
