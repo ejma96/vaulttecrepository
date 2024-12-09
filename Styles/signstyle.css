@@ -16,7 +16,8 @@
 .signupforms input {
     display: flex;
     justify-content: center;
-    width: 25%;
+    text-align: center;
+    width: 40%;
     margin: 0 auto;
     padding: 1px;
     margin-bottom: 2px;

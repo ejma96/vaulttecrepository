@@ -32,19 +32,19 @@
       out all informational fields with the correct information! Also, please note, we are not 
       allowing robots or pets at this time, so please only count your human family!</p>
   </div>
-  <div class="signupforms">
-    <form method="get" action="" id="signup-form">
+  <div class="signupforms" id="signupforms">
+    <form method="get" id="signup-form">
       <label for="firstname">First Name</label>
-      <input type="text" name="firstname" id="firstname"/>
+      <input type="text" name="firstname" id="firstname" placeholder="Robert"/>
       <br>
       <label for="lastname">Last Name</label>
-      <input type="text" name="lastname" id="lastname"/>
+      <input type="text" name="lastname" id="lastname" placeholder="House"/>
       <br>
       <label for="email">Email Address</label>
-      <input type="email" name="email" id="email">
+      <input type="email" name="email" id="email" placeholder="rhouse@robco.com">
       <br>
       <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone">
+      <input type="tel" name="phone" id="phone" placeholder="(XXX) XXX-XXXX">
       <br>
       <label for="familymembers">Family Members</label>
       <select id="familymembers" name="familymembers">
@@ -109,8 +109,9 @@
         <option value="WY">Wyoming</option>
       </select>
       <br>
-      <input type="submit" value="submit" id="submit"/>
+      <input type="submit" value="submit" id="submit" onclick="submission()"/>
     </form>
   </div>
+  <script src="../Scripts/signup.js"></script>
 </body>
 </html>
