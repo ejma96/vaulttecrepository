@@ -1,6 +1,6 @@
 .signupforms {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 10px;
     width: 50%;
     background-color: rgb(255,240,131);
     border-radius: 25px;
@@ -30,4 +30,19 @@
     width: 25%;
     margin: 0 auto;
     color: rgb(44,130,255);
+}
+
+.incorrect {
+    border: 3px solid rgb(255, 0 ,0);
+    background-color: rgb(235, 146, 146);
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+    padding: 1px;
+    margin-bottom: 2px;
 }
