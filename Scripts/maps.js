@@ -24,10 +24,98 @@ async function initMap() {
     position: { lat: 32.3792, lng: -86.3077  },
   });
 
+  //Arizona
+  const FlagstaffAZ = new AdvancedMarkerElement({
+    map,
+    position: { lat: 35.1983, lng: -111.6513  },
+  });
+  
+  const PhoenixAZ = new AdvancedMarkerElement({
+    map,
+    position: { lat: 33.4484, lng: -112.0740  },
+  });
+
+  const TusconAZ = new AdvancedMarkerElement({
+    map,
+    position: { lat: 32.2540, lng: -110.9742  },
+  });
+
   //Arkansas
   const LittleRockAR = new AdvancedMarkerElement({
     map,
     position: { lat: 34.7445, lng: -92.2880  },
+  });
+
+  //California
+  const BakersfieldCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 35.3733, lng: -119.0187  },
+  });
+
+  const EurekaCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 40.8021, lng: -124.1637  },
+  });
+
+  const FremontCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 37.5485, lng: -121.9886  },
+  });
+
+  const FresnoCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 36.7378, lng: -119.7871  },
+  });
+
+  const LosAngelesCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 34.0549, lng: -118.2426  },
+  });
+
+  const SacramentoCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 38.5781, lng: -121.4944  },
+  });
+
+  const SanDiegoCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 32.7157, lng: -117.1611  },
+  });
+
+  const SanFranciscoCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 37.7749, lng: -122.4194  },
+  });
+
+  const SanJoseCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 37.3387, lng: -121.8853  },
+  });
+
+  const SantaBarbaraCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 34.4208, lng: -119.6982  },
+  });
+
+  const StocktonCA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 37.9577, lng: -121.2908  },
+  });
+
+  //Colorado
+  const BoulderCO = new AdvancedMarkerElement({
+    map,
+    position: { lat: 40.0150, lng: -105.2705  },
+  });
+
+  const DenverCO = new AdvancedMarkerElement({
+    map,
+    position: { lat: 39.7392, lng: -104.9903  },
+  });
+
+  const GrandJunctionCO = new AdvancedMarkerElement({
+    map,
+    position: { lat: 39.0639, lng: -108.5506  },
   });
 
   //Florida
@@ -56,6 +144,17 @@ async function initMap() {
   const SavannahGA = new AdvancedMarkerElement({
     map,
     position: { lat: 32.0809, lng: -81.0912  },
+  });
+
+  //Idaho
+  const BoiseID = new AdvancedMarkerElement({
+    map,
+    position: { lat: 43.6150, lng: -116.2023  },
+  });
+
+  const PocatelloID = new AdvancedMarkerElement({
+    map,
+    position: { lat: 42.8621, lng: -112.4506  },
   });
   
   //Illinois
@@ -170,6 +269,17 @@ async function initMap() {
     position: { lat: 38.6270, lng: -90.1994  },
   });
 
+  // Montana
+  const BozemanMT = new AdvancedMarkerElement({
+    map,
+    position: { lat: 45.6793, lng: -111.0373  },
+  });
+
+  const MissoulaMT = new AdvancedMarkerElement({
+    map,
+    position: { lat: 46.8721, lng: -113.9940  },
+  });
+  
   // Nebraska
   const LincolnNE = new AdvancedMarkerElement({
     map,
@@ -181,10 +291,32 @@ async function initMap() {
     position: { lat: 41.2565, lng: -95.9345  },
   });
 
+  // Nevada
+  const LasVegasNV = new AdvancedMarkerElement({
+    map,
+    position: { lat: 36.1716, lng: -115.1391  },
+  });
+
+  const RenoNV = new AdvancedMarkerElement({
+    map,
+    position: { lat: 39.5299, lng: -119.8143  },
+  });
+
   // New Jersey
   const NewarkNJ = new AdvancedMarkerElement({
     map,
     position: { lat: 40.7356, lng: -74.1722  },
+  });
+
+  // New Mexico
+  const AlbuquerqueNM = new AdvancedMarkerElement({
+    map,
+    position: { lat: 35.0844, lng: -106.6504  },
+  });
+  
+  const SantaFeNM = new AdvancedMarkerElement({
+    map,
+    position: { lat: 35.6870, lng: -105.9378  },
   });
 
   // New York
@@ -242,6 +374,22 @@ async function initMap() {
     position: { lat: 36.1540, lng: -95.9928  },
   });
 
+  //Oregon
+  const EugeneOR = new AdvancedMarkerElement({
+    map,
+    position: { lat: 44.0521, lng: -123.0868  },
+  });
+  
+  const PortlandOR = new AdvancedMarkerElement({
+    map,
+    position: { lat: 45.5152, lng: -122.6784  },
+  });
+
+  const SalemOR = new AdvancedMarkerElement({
+    map,
+    position: { lat: 44.9429, lng: -123.0351  },
+  });
+
   //Pennsylvania
   const HarrisburgPA = new AdvancedMarkerElement({
     map,
@@ -264,6 +412,22 @@ async function initMap() {
     position: { lat: 34.0008, lng: -81.0351  },
   });
 
+  //South Dakota
+  const PierreSD = new AdvancedMarkerElement({
+    map,
+    position: { lat: 44.3668, lng: -100.3538  },
+  });
+
+  const RapidCitySD = new AdvancedMarkerElement({
+    map,
+    position: { lat: 44.0805, lng: -103.2310  },
+  });
+  
+  const SiouxFallsSD = new AdvancedMarkerElement({
+    map,
+    position: { lat: 43.5460, lng: -96.7313  },
+  });
+
   //Tennessee
   const KnoxvilleTN = new AdvancedMarkerElement({
     map,
@@ -280,6 +444,58 @@ async function initMap() {
     position: { lat: 36.1627, lng: -86.7816  },
   });
 
+  //Texas
+  const AustinTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 30.2672, lng: -97.7431  },
+  });
+
+  const CorpusChristiTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 27.8006, lng: -97.3964  },
+  });
+
+  const DallasTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 32.7767, lng: -96.7970  },
+  });
+
+  const ElPasoTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 31.7619, lng: -106.4850  },
+  });
+
+  const FortWorthTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 32.7555, lng: -97.3308  },
+  });
+
+  const GalvestonTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 29.3013, lng: -94.7977  },
+  });
+
+  const HoustonTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 29.7601, lng: -95.3701  },
+  });
+
+  const LubbockTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 33.5778, lng: -101.8553  },
+  });
+
+  const SanAntonioTX = new AdvancedMarkerElement({
+    map,
+    position: { lat: 29.4252, lng: -98.4946  },
+  });
+
+  //Utah
+  const SaltLakeCiyUT = new AdvancedMarkerElement({
+    map,
+    position: { lat: 40.7608, lng: -111.8910  },
+  });
+
   //Vermont
   const MontpelierVT = new AdvancedMarkerElement({
     map,
@@ -290,6 +506,22 @@ async function initMap() {
   const RichmondVA = new AdvancedMarkerElement({
     map,
     position: { lat: 37.5407, lng: -77.4360  },
+  });
+
+  //Washington
+  const SeattleWA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 47.6061, lng: -122.3328  },
+  });
+
+  const SpokaneWA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 47.6580, lng: -117.4235  },
+  });
+
+  const TacomaWA = new AdvancedMarkerElement({
+    map,
+    position: { lat: 47.2529, lng: -122.4443 },
   });
 
   //Washington DC
@@ -313,6 +545,12 @@ async function initMap() {
   const MorgantownWV = new AdvancedMarkerElement({
     map,
     position: { lat: 39.6295, lng: -79.9559  },
+  });
+
+  //Wyoming
+  const CheyenneWY = new AdvancedMarkerElement({
+    map,
+    position: { lat: 41.1400, lng: -104.8202  },
   });
 
 }
