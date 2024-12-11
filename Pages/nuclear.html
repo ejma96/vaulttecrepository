@@ -39,6 +39,22 @@
     <h2>Ok, but there won't really be a nuclear war - right?</h2>
     <p>After years of studying the political and military instabilities of our world, Vault-Tec has 
       determined that the odds of a nuclear war this decade are 17,443,762 to 1.</p>
+    <h2>Estimated Days until Nuclear War</h2>
+      <script>
+      let countDownDate = new Date("Jan 1, 2030 00:00:00").getTime();
+      let x = setInterval(function() {
+      let now = new Date().getTime();
+      let distance = countDownDate - now;
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      document.getElementById("dday").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+    });
+    </script>
+      <p id="dday"></p>
     <h2>What do I do?</h2>
     <p>No need to worry! While our world may be destined to die in a nuclear exchange, you and your 
       family can persevere in a Vault-Tec Vault, continuing your American way of life undisturbed!</p>
