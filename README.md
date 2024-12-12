@@ -1,2 +1,13 @@
-# vaulttecrepository
-Vault Tec Repository
+Welcome to my Web Design Capstone project. My goal for this project was to create a sales and informational page for the fictional company Vault-Tec, a defense contractor from the Fallout video game franchise. As a huge fan of Fallout, it was my goal to not only create a responsive website, but to ensure the information displayed was accurate to the lore of Fallout. The history of Vault-Tec, life in a Vault-Tec vault, Vault locations, nuclear war projections, and celebrity ad have all been put together from information available from the games and media to date. In-game posters you may find while scavenging the downtown DC ruins, terminal entries, and scenes from the tv show that premiered in April all contributed to creating what I believe to be an accurate representation of what Vault-Tec would project to potential customers in the Fallout universe. 
+
+To meet the capstone requirements, I have selected the following features from the feature list:
+
+Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved) - The website features a sign-up form, intended to collect information from potential customers, including their name, phone, email, state of residence, and family size. Leaving a field unanswered generates a warning message, requesting the user fill out the missing piece of information. Successful submission displays a thank you message with assurance that they will be contacted shortly by a Vault-Tec representative.
+
+Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event) - I created a countdown timer to the end of the decade (January 1, 2030). This timer is meant to illustrate a doomsday clock. Vault-Tec predicts a nuclear war is incredibly likely, and this displays how much time, if that, that customers have left to get their spots reserved in one of their underground bunkers. 
+
+Retrieve data from a third-party API and use it to display something within your app - I obtained an API Key for Google Maps, and have added over 100 map markers to display where these Vaults would be located across the continental United States. Each map marker has a specific set of coordinates, and the map begins centered in Nebraska, giving users a full view of the country when first visiting the country.
+
+In addition to the features I picked above, I have also integrated flex box to create a gallery on the Vault Life page. It is intended to display what life would be like inside a Vault, with images captured from the games. 
+
+I hope you enjoy this project as much as I did!
