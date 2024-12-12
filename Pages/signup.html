@@ -33,7 +33,7 @@
       allowing robots or pets at this time, so please only count your human family!</p>
   </div>
   <div class="signupforms" id="signupforms">
-    <form method="get" id="signup-form">
+    <form method="get" id="signup-form" onsubmit="signup();">
       <label for="firstname">First Name</label>
       <input type="text" name="firstname" id="firstname" placeholder="Robert"/>
       <br>
@@ -48,6 +48,7 @@
       <br>
       <label for="familymembers">Family Members</label>
       <select id="familymembers" name="familymembers">
+        <option value="0">SELECT</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -57,6 +58,7 @@
       <br>
       <label for="state">State of Residence</label>
       <select id="state" name="state">
+        <option value="0">SELECT</option>
         <option value="AL">Alabama</option>
         <option value="AK">Alaska</option>
         <option value="AZ">Arizona</option>
@@ -109,8 +111,9 @@
         <option value="WY">Wyoming</option>
       </select>
       <br>
-      <button type="submit" id="submit-btn" class="submit-btn" onclick="signup()">Submit</button>
+      <input type="submit" value="Submit">
     </form>
+    <p id="error"></p>
   </div>
   <script src="../Scripts/signup.js"></script>
 </body>
